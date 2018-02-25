@@ -1,0 +1,342 @@
+<resources>
+    <string name="app_name">Quiero Vivir Sano</string>
+    <string name="slogan">8 hábitos saludables</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_datos">datos</string>
+    <string name="title_activity_imc">imc</string>
+    <string name="facebook_app_id"></string>
+    <string name="cancel_login">cancelado</string>
+    <string name="error_login">Error</string>
+    <string name="logout">Salir</string>
+    <string name="estatura">Introduce tu Estaura</string>
+    <string name="peso">Introduce tu Peso</string>
+    <string name="ingresape">Ingresa tu Peso y Estatura</string>
+    <string name="nombre">nombre</string>
+    <string name="title_activity_home">Quiero Vivir Sano</string>
+    <string name="registro">Registrarse</string>
+    <string name="email">Email</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="url"></string>
+
+    <string name="obligatorios">* Todos los campos son obligatorios</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="Configuración">Calcula tu IMC</string>
+    <string name="title_activity_habito1">habito1</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- MENSAJES Y ALERTAS -->
+    <string name="fallo_sesion">Error el inicio de Sesión</string>
+    <string name="login_email">Introduce tu correo electrónico</string>
+    <string name="login_contrasena">Introduce 4 y 10 caracteres alfanuméricos</string>
+    <string name="login_error_json">Error al introducir correo electrónico y contraseña</string>
+    <string name="login_error_request">Error al Autentificar</string>
+    <string name="login_error_internet">Verifique su conexión</string>
+    <string name="error_registro_nombre">Introduce tu Nombre</string>
+    <string name="error_registro_edad">Introduce tu edad</string>
+    <string name="error_registro_sexo">Selecciona el sexo</string>
+    <string name="error_registro_pais">Selecciona el País</string>
+    <string name="error_registro_estado">Selecciona el Estado</string>
+    <string name="error_registro_ciudad">Introduce la Ciudad</string>
+    <string name="error_registro_correo">Introduce el Correo Electrónico</string>
+    <string name="error_registro_pass">Introduce de 4 a 10 caracteres alfanumericos</string>
+    <string name="error_registro_pass2">las contraseñas con diferentes</string>
+
+    <string name="habitos_error_json">Error al cargar los datos de tu actividad</string>
+    <string name="habitos_error_guardar">Error al cargar los datos de tu actividad</string>
+    <string name="habitos_error_request">Falta Información</string>
+    <string name="habitos_error_internet">Verifique su conexión</string>
+    <string name="mensaje_guardar">se ha guardado la actividad</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="h1">Habito 1</string>
+    <string name="h2">Habito 2</string>
+    <string name="h3">Habito 3</string>
+    <string name="h4">Habito 4</string>
+    <string name="h5">Habito 5</string>
+    <string name="h6">Habito 6</string>
+    <string name="h7">Habito 7</string>
+    <string name="h8">Habito 8</string>
+    <string name="registrar">Porcentaje de Avance</string>
+    <string name="porcentaje"></string>
+    <!-- MENU -->
+    <string name="Habito1">Beber Agua Natural</string>
+    <string name="Habito2">Actitud Positiva</string>
+    <string name="Habito3">El Bien Comer</string>
+    <string name="Habito4">Realizar Actividad Física</string>
+    <string name="Habito5">Descanso Adecuado</string>
+    <string name="Habito6">Auto-control</string>
+    <string name="Habito7">Desayunar + y Cenar -</string>
+    <string name="Habito8">Ser Feliz</string>
+    <string name="compartir">Compartir</string>
+    <string name="enviar">Enviar</string>
+    <string name="salir">Salir</string>
+
+    <string name="materiales">¿Qué necesito para lograrlo?</string>
+    <string name="actividad">¿Cómo lograrlo?</string>
+    <string name="vermas"></string>
+
+    <string name="dom">DOM</string>
+    <string name="lun">LUN</string>
+    <string name="mar">MAR</string>
+    <string name="mie">MIÉ</string>
+    <string name="jue">JUE</string>
+    <string name="vie">VIE</string>
+    <string name="sab">SÁB</string>
+    <string name="cadadia">CADA\n DIA</string>
+
+    <!-- HAbito 1 -->
+    <string name="tituloh1"></string>
+    <string name="habitoh1">Beber Agua natural</string>
+<string name="descripcionh1">¿Qué es el hábito de beber agua natural?\n\n
+Es el consumo adecuado de agua de acuerdo al requerimiento mínimo de cada individuo que depende de la dieta, ambiente y nivel de actividad de la persona. Segun el Institute of Medicine of the National Academies la mayoría de los adultos requieren de un mínimo de 2.1 litros, un promedio de 3.4 litros y un máximo de 5.0 litros de agua al dia.
+\n\nEl beber agua natural es vital para el funcionamiento integral del organismo ya que te ayuda a prevenir y disminuir enfermedades (obesidad, ataques al corazón, diabetes), además mejora tu capacidad de pensar. Tu cuerpo y mente necesitan el agua natural para mantenerse bien hidratados.</string>
+<string name="materialh1">Una botella de un litro para beber agua natural constantemente. </string>
+<string name="actividadh1">Seguir las actividades de la tabla  y marcar cada día las acciones que cumpla.</string>
+    <string name="desctablah1">Marcar los objetivos que he logrado.</string>
+
+    <string name="h1domingo">No esperar a tener sed para Beber Agua Natural.</string>
+    <string name="h1lunes">Beber Agua Natural mientras realizo ejercicio físico.</string>
+    <string name="h1martes">Beber dos vasos de agua natural 30 minutos antes de cada comida y cena.</string>
+    <string name="h1miercoles">Beber dos vasos de agua natural al levantarme, antes de desayunar.</string>
+    <string name="h1jueves">Beber un vaso de agua natural una hora antes de dormir.</string>
+    <string name="h1viernes">Beber agua Natural en la escuela o el trabajo.</string>
+    <string name="h1sabado">No reemplazar el agua natural por otros líquidos, ya sea refrescos o jugo.</string>
+    <string name="h1cadadia">Beber ocho vasos de agua natural durante todo el día.</string>
+
+
+
+
+
+    <!-- HAbito 2 -->
+    <string name="tituloh2">como un hábito</string>
+    <string name="habitoh2">Actitud Positiva</string>
+    <string name="descripcionh2"> ¿Qué es el hábito de una actitud positiva?\n\n
+Es la elección de aprender a pensar en lo bueno y agradable de forma constructiva, objetiva y sana y expresarlo en las relaciones interpersonales.\n\n
+Para mantenerte saludable es determinante que tengas una actitud positiva frente a todas las situaciones de la vida. Este hábito te ayuda a desarrollar una mejor salud integral.
+ </string>
+    <string name="materialh2">Cultivar pensamientos positivos y vencer el pesimismo.</string>
+<string name="actividadh2">Seguir las actividades de la tabla y marcar cada día las acciones que cumpla. </string>
+    <string name="desctablah2">Marcar los objetivos que he logrado.</string>
+    <string name="h2domingo">Compartir pensamientos y emociones positivas con mi seres queridos.</string>
+    <string name="h2lunes">Ver el lado positivo de las situaciones que enfrento diariamente.</string>
+    <string name="h2martes">Ser agradecido con Dios y con los que me rodean.</string>
+    <string name="h2miercoles">Rodearme de personas positivas.</string>
+    <string name="h2jueves">Contar hasta 10 cuando esté enojado y respirar profundamente.</string>
+    <string name="h2viernes">Utilizar palabras positivas y apropiadas al comunicarse con las demás personas.</string>
+    <string name="h2sabado">Reconocer cualidades en las personas y expresarlas.</string>
+    <string name="h2cadadia">Pedir a Dios fuerza y sabiduría para enfrentar los momentos difíciles y aprender de ellos.</string>
+
+    <!-- HAbito 3 -->
+    <string name="tituloh3"></string>
+    <string name="habitoh3">El bien comer</string>
+    <string name="descripcionh3">¿Qué es el hábito del bien comer?\n\n
+Es alimentarse de forma balanceada, integrando y combinando los diferentes grupos de alimentos, por medio de las correctas porciones y calorías, para que la persona posea un funcionamiento.
+\n\nEn este hábito debes aprender a comer usando y combinando los cuatro grupos del plato quiero ¡VIVIR SANO!. El consumo de alimentos saludables te ayuda a prevenir y combatir muchas enfermedades. Además te ayuda a pensar de mejor manera y a tener la energía necesaria para tu día. Recuerda que tu eres lo que comes. </string>
+<string name="materialh3">Revisa el plato de quiero vivir sano de abajo.
+</string>
+<string name="actividadh3">Seguir las actividades de la tabla y marcar cada día las acciones que cumpla. </string>
+    <string name="desctablah3">Marcar los objetivos que he logrado. </string>
+    <string name="h3domingo">Comprar mi despensa sin que falten:\n
+- Muchas frutas y verduras\n
+- Suficientes cereales integrales(arroz integral, trigo, maíz, cebada, centeno, salvado, avena, amaranto, entre otros) y tubérculos (papa, camote, yuca, entre otros).\n
+- Suficientes proteínas de origen vegetal (frijoles, garbanzos, lentejas, habas, alubias, soya, entre otros).\n
+- Grasas saludables(aguacate, semillas, nueces, almendras, aceite de oliva, aceite de coco).</string>
+    <string name="h3lunes">Comer muchas frutas y verduras\n
+- No olvidar incluir una fruta roja, una cítrica y una amarilla durante el dia.\n
+- Incluir en mi plato el mayor número de verduras.</string>
+    <string name="h3martes">- Iniciar la comida con un plato grande de ensalada de vegetales frescos(incluye al menos tres colores).\n
+- Consumir suficientes proteínas de origen vegetal como frijoles, garbanzos, lentejas en lugar de las proteínas de origen animal (carne, pollos y quesos).</string>
+    <string name="h3miercoles"> Preparar mi comida sin freir\n
+- Preparar un plato donde se evite el uso de mantequilla, margarina, aceite, crema, aderezos con conservadores o mayonesa y sustituir estos alimentos por grasas saludables como aguacate, semillas, nueces, almendras, aceite de oliva, aceite de coco.</string>
+    <string name="h3jueves">Evitar el consumo de cereales REFINADOS (pasta blanca, arroz blanco, pan blanco) y sustituirlo por cereales integrales (pan integral, arroz integral, pasta integral).</string>
+    <string name="h3viernes">Preparar mi receta favorita con ingredientes saludables, basándose en el plato quiero \n¡VIVIR SANO!.</string>
+    <string name="h3sabado">Preparar una comida saludable basándose en el plato quiero ¡VIVIR SANO! para compartir con mi familia o amigos.</string>
+    <string name="h3cadadia">Revisar el plato quiero ¡VIVIR SANO!  antes de preparar mis alimentos.</string>
+
+    <!-- HAbito 4 -->
+    <string name="tituloh4">Realizar</string>
+    <string name="habitoh4">Actividad Física</string>
+    <string name="descripcionh4">¿Qué es el hábito de realizar actividad física?\n\n
+Es cualquier movimiento corporal producido por los músculos esqueléticos que exija un gasto de energía.(OMS)
+\n\nLa actividad física te ofrece muchos beneficios, te ayuda a sentirte bien, con un mejor estado de ánimo, fortalece tus músculos y huesos, disminuye el estrés, mejora tu memoria y concentración, entre otras cosas. Además te ayuda a combatir y revertir enfermedades como la diabetes, el sobrepeso, la obesidad y a tener una mejor calidad de vida.
+ </string>
+<string name="materialh4"> Un par de zapatos (tenis) y ropa cómoda.\n
+Identificar un área cercana en donde pueda realizar actividad física, preferiblemente al aire libre y donde pueda recibir un poco de luz solar. </string>
+    <string name="notah4"> </string>
+<string name="actividadh4"> Seguir las actividades de la tabla y marcar cada día las acciones que cumpla.
+</string>
+    <string name="desctablah4"> Marcar los objetivos que he logrado. </string>
+    <string name="h4domingo">Realizar un trabajo físico manual (sembrar un huerto familiar, arreglar un jardín).</string>
+    <string name="h4lunes">Realizar al menos 30 minutos al día de ejercicio de tipo aeróbico (trotar, caminatas rápidas, jugar tenis, baloncesto, fútbol, aeróbicos u otros deportes).</string>
+    <string name="h4martes">Realizar actividades de fortalecimiento de los grandes grupos musculares (lagartijas, abdominales, sentadillas, levantamiento de pesas).</string>
+    <string name="h4miercoles">Evitar estar sentado por más de dos horas al dia.</string>
+    <string name="h4jueves">Incorporar a mi rutina diaria nuevas maneras de hacer actividad física (dejar el carro más lejos, caminar al trabajo, usar bicicleta como transporte, subir y bajar escaleras).</string>
+    <string name="h4viernes">Realizar estiramientos de piernas y brazos varias veces durante el dia.</string>
+    <string name="h4sabado">Realizar caminatas al aire libre y bajo la luz solar con mi familia o amigos.</string>
+    <string name="h4cadadia">Realizar algún tipo de actividad física.</string>
+
+
+    <!-- HAbito 5 -->
+    <string name="tituloh5"></string>
+    <string name="habitoh5">Descanso adecuado</string>
+    <string name="descripcionh5">¿Qué es el hábito un descanso adecuado?\n\n
+Es el estado momentáneo de reposo, tranquilidad o inactividad, que se realiza en medio del trabajo o de una actividad para reponer fuerzas físicas, mentales y espirituales.
+\n\nParte de un descanso adecuado es tener un sueño reparador que te permita la renovación de tu cuerpo y mente. Además del sueño el descanso adecuado incluye hacer pausas en tus actividades diarias, las cuales te ayudan a pensar de una manera precisa y clara. Por ende te desempeñas mejor.</string>
+<string name="materialh5"> Planificar mi tiempo durante el día.</string>
+<string name="actividadh5">Seguir las actividades de la tabla y marcar cada día las acciones que cumpla.</string>
+    <string name="desctablah5"> Marcar los objetivos que he logrado.</string>
+    <string name="h5domingo">Formar rutina de no más de 30 minutos antes de ir a dormir (cepillar los dientes, un baño, orar y listo para dormir).</string>
+    <string name="h5lunes">Dormir antes de las 10 de la noche, como mínimo dormir 7 horas seguidas al día.</string>
+    <string name="h5martes">Evitar tener en mi recamara cosas que perturben el sueño (televisión, radio, celular, videojuegos, entre otras cosas).</string>
+    <string name="h5miercoles">Hacer durante el día un ejercicio de relajación (cerrar los ojos, contraer, relajar mis músculos desde los pies a la cabeza).</string>
+    <string name="h5jueves">Hacer una pausa de cinco minutos para tomar un descanso durante mis actividades diarias.</string>
+    <string name="h5viernes">Realizar 5 respiraciones profundas (inhalar por la nariz, sostener la respiración y contar hasta cinco y exhalar el aire por la boca).</string>
+    <string name="h5sabado">Apartar este día para descansar y compartir con mi familia y amigos.</string>
+    <string name="h5cadadia">Desarrollar un hábito de descanso adecuado.</string>
+
+
+    <!-- HAbito 6 -->
+    <string name="tituloh6"></string>
+    <string name="habitoh6">El Auto-control</string>
+    <string name="descripcionh6">¿Qué es el hábito auto-control?\n\n
+        Es ejercer el dominio propio y la fuerza de voluntad para evitar lo nocivo y hacer uso correcto de lo beneficioso.
+\n\nDebes aprender a ejercer control sobre las decisiones y acciones de tu día a día, ya que éstas formarán tus hábitos. Practica el hábito de auto-control en los alimentos que consumes, la administración de tus recursos (tiempo y dinero), el cuidado del medio ambiente y para evitar cualquier tipo de adicciones.</string>
+    <string name="actividadh6">Dominio propio y fuerza de voluntad.</string>
+    <string name="notah6"> Seguir las actividades de la tabla y marcar cada día las acciones que cumpla.
+</string>
+    <string name="desctablah6">Marcar los objetivos que he logrado. </string>
+    <string name="h6domingo">Evitar el consumo de alimentos y bebidas no nutritivas (frituras, bebidas azucaradas, grasas saturadas, harinas refinadas, embutidos, alimentos altos en sodio y azúcar).</string>
+    <string name="h6lunes">Distribuir mi tiempo en diferentes actividades del día y así llevar una vida balanceada.</string>
+    <string name="h6martes">Elaborar un presupuesto de mis gastos mensuales de acuerdo a mis ingresos.</string>
+    <string name="h6miercoles">Evitar el consumo de alimentos o bebidas azucaradas entre cada comida.</string>
+    <string name="h6jueves">Cuidar el medio ambiente depositando la basura y desechos en su respectivo bote.</string>
+    <string name="h6viernes"> Evitar cualquier tipo de adicción (bebidas embriagantes, tabaco, drogas, pornografía, juegos, internet, aparatos electrónicos, entre otras).</string>
+    <string name="h6sabado">Fortalecer mi dominio propio no dejando de practicar los hábitos aprendidos.</string>
+    <string name="h6cadadia">Moderar la cantidad de raciones de alimentos y/o bebidas que consumo durante el dia.</string>
+
+    <!-- HAbito 7 -->
+    <string name="tituloh7">Hábito de</string>
+    <string name="habitoh7">Desayunar + y cenar - </string>
+    <string name="descripcionh7"> ¿Qué es el hábito desayunar más?\n\n
+Es darle al desayuno nutritivo la prioridad e importancia que merece, para lograr un mejor desarrollo y rendimiento integral del organismo y reducir la ingesta alimenticia de la cena.
+\n\nEl desayuno es sumamente importante para que tu cuerpo funcione adecuadamente el resto del día. Si no desayunas tu organismo reacciona bajando su metabolismo, esto te hace subir de peso. Recuerda que tu cena debe ser ligera para evitar el exceso de peso y además te ayudará a tener un descanso reparador. </string>
+    <string name="materialh7">Practicar el bien comer, ejercer el hábito del buen control y dedicar tiempo al desayuno. </string>
+<string name="actividadh7"> Seguir las actividades de la tabla y marcar cada día las acciones que cumpla. </string>
+    <string name="desctablah7">Marcar los objetivos que he logrado. </string>
+    <string name="h7domingo">Planear el menú del desayuno y cenas de la semana con base en el hábito del buen comer.</string>
+    <string name="h7lunes">Iniciar el día desayunando más y finalizarlo cenando menos.</string>
+    <string name="h7martes">Desayunar como máximo una hora después de levantarse.</string>
+    <string name="h7miercoles">Dedicar por lo menos 30 min al día para ingerir mi desayuno.</string>
+    <string name="h7jueves">Cenar ligero por lo menos 3 horas antes de dormir.</string>
+    <string name="h7viernes">Disminuir la cantidad de alimentos en la cena.</string>
+    <string name="h7sabado">Compartir el desayuno en familia.</string>
+    <string name="h7cadadia">Revisar si mis desayunos y cenas están de acuerdo al plato quiero ¡VIVIR SANO!.</string>
+
+    <!-- HAbito 8 -->
+    <string name="tituloh8"></string>
+    <string name="habitoh8">Ser Feliz</string>
+<string name="descripcionh8"> ¿Qué es el hábito ser feliz?\n\n
+Es un estado de armonía con Dios el creador que proporciona gozo, paz, realización y que se obtiene por medio de una plena confianza y esperanza en él, al servicio de los demás.
+\n\nSer feliz es una decisión que debes de incluir en tus hábitos y depende  mayormente de una actitud interior, de tu relación con Dios y con las demás personas. El gozo aumenta las defensas de tu cuerpo. Los actos de bondad y de servicio liberan sustancia naturales en el organismo que reducen el estrés, la depresión, la ansiedad y mejoran tu estado de ánimo.\n\n\
+    ¡DEDICATE A SER FELIZ!</string>
+    <string name="actividadh8"> La palabra de Dios, confianza y esperanza en una vida de calidad.</string>
+<string name="materialh8">Seguir las actividades de la tabla y marcar cada día las acciones que cumpla. </string>
+    <string name="desctablah8">Marcar los objetivos que he logrado.</string>
+    <string name="h8domingo">Servir a una persona o familia necesitada en mi comunidad.</string>
+    <string name="h8lunes">Disfrutar momentos agradables en el dia.</string>
+    <string name="h8martes">Sonreír a todas las personas con las que me relaciono durante el día.</string>
+    <string name="h8miercoles">Afrontar mis problemas confiando plenamente en la dirección de Dios.</string>
+    <string name="h8jueves">Mantener una comunicación constante con Dios.</string>
+    <string name="h8viernes">Dar abrazos y expresar afecto iniciando con mi familia y/o amigos.</string>
+    <string name="h8sabado">Incorporarse en un grupo donde me sienta querido y aceptado.</string>
+    <string name="h8cadadia">Reflexionar en la palabra de Dios durante 15 minutos al dia y compartirlo con los demás.</string>
+
+
+
+    <string name="requsitos">Requisitos del Registro</string>
+
+    <string-array name="sexo">
+        <item>Selecciona</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+    <string-array name="pais">
+        <item>Selecciona</item>
+        <item>México</item>
+        <item>Canadá</item>
+        <item>USA</item>
+        <item>Antigua y Barbuda</item>
+        <item>Bahamas</item>
+        <item>Barbados</item>
+        <item>Belice</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Dominica</item>
+        <item>El Salvador</item>
+        <item>Grenada</item>
+        <item>Guatemala</item>
+        <item>Haití</item>
+        <item>Honduras</item>
+        <item>Jamaica</item>
+        <item>Nicaragua</item>
+        <item>Panamá</item>
+        <item>Puerto Rico</item>
+        <item>República Dominicana</item>
+        <item>San Cristóbal y Nevis</item>
+        <item>San Vicente y Granadinas</item>
+        <item>Santa Lucía</item>
+        <item>Trinidad y Tobago</item>
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Brasil</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Ecuador</item>
+        <item>Guyana</item>
+        <item>Guayana Francesa</item>
+        <item>Paraguay</item>
+        <item>Perú</item>
+        <item>Surinam</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
+    <string-array name="estado">
+        <item>Selecciona</item>
+        <item>Aguascalientes</item>
+        <item>Baja California</item>
+        <item>Baja California Sur</item>
+        <item>Campeche</item>
+        <item>Chihuahua</item>
+        <item>Chiapas</item>
+        <item>Coahuila</item>
+        <item>Colima</item>
+        <item>Durango</item>
+        <item>Guanajuato</item>
+        <item>Guerrero</item>
+        <item>Higalgo</item>
+        <item>Jalisco</item>
+        <item>México</item>
+        <item>Michoacán</item>
+        <item>Morelos</item>
+        <item>Nayarit</item>
+        <item>Nuevo León</item>
+        <item>Oaxaca</item>
+        <item>Puebla</item>
+        <item>Querétaro</item>
+        <item>Quintana Roo</item>
+        <item>San Luis Potosí</item>
+        <item>Sinaloa</item>
+        <item>Sonora</item>
+        <item>Tabasco</item>
+        <item>Tamaulipas</item>
+        <item>Tlaxcala</item>
+        <item>Veracruz</item>
+        <item>Yucatán</item>
+        <item>Zacatecas</item>
+    </string-array>
+</resources>

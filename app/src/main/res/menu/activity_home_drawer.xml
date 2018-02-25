@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/habito1"
+            android:icon="@drawable/habito1"
+            android:title="@string/Habito1" />
+        <item
+            android:id="@+id/habito2"
+            android:icon="@drawable/habito2"
+            android:title="@string/Habito2" />
+        <item
+            android:id="@+id/habito3"
+            android:icon="@drawable/habito3"
+            android:title="@string/Habito3" />
+        <item
+            android:id="@+id/habito4"
+            android:icon="@drawable/habito4"
+            android:title="@string/Habito4" />
+        <item
+            android:id="@+id/habito5"
+            android:icon="@drawable/habito5"
+            android:title="@string/Habito5" />
+        <item
+            android:id="@+id/habito6"
+            android:icon="@drawable/habito6"
+            android:title="@string/Habito6" />
+        <item
+            android:id="@+id/habito7"
+            android:icon="@drawable/habito7"
+            android:title="@string/Habito7" />
+        <item
+            android:id="@+id/habito8"
+            android:icon="@drawable/habito8"
+            android:title="@string/Habito8" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/compartir" />
+            <item
+                android:id="@+id/salir"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/salir" />
+        </menu>
+    </item>
+
+</menu>

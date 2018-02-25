@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="55dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="8dp"
+        android:id="@+id/cardView22">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/primeroc"
+            android:textSize="15dp"
+            android:text="@string/desctablah1"
+            android:id="@+id/textView41" />
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="100dp"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/cardView22"
+        android:layout_alignStart="@+id/cardView22"
+        android:id="@+id/cardView2">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:background="#ffff"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/octavoh"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:text="Día"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView8"
+                        android:textColor="#ffff"/>
+
+                    <TextView
+                        android:text="Acciones"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView13"
+                        android:textColor="#ffff"
+                        android:layout_width="200dp" />
+
+                    <TextView
+                        android:text="Marque"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView27"
+                        android:textColor="#ffff"
+                        android:layout_width="70dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:text="@string/dom"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView15" />
+
+                    <TextView
+                        android:text="@string/h1domingo"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView29"
+                        android:textSize="12dp"/>
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/domF"
+                        android:layout_gravity="center"
+                        android:gravity="center" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:text="@string/lun"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView34" />
+
+                    <TextView
+                        android:text="@string/h1lunes"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView33"
+                        android:textSize="12dp" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/LunF"
+                        android:layout_gravity="center"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:text="@string/mar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView37" />
+
+                    <TextView
+                        android:text="@string/h1martes"
+                        android:id="@+id/textView36"
+                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:textSize="12dp" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/MarF"
+                        android:layout_gravity="center"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:text="@string/mie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView40" />
+
+                    <TextView
+                        android:text="@string/h1miercoles"
+                        android:layout_width="100dp"
+                        android:id="@+id/textView39"
+                        android:textSize="12dp"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/MiF"
+                        android:layout_gravity="center"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:text="@string/jue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView43" />
+
+                    <TextView
+                        android:text="@string/h1jueves"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView42"
+                        android:textSize="12dp" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/JuF"
+                        android:layout_gravity="center"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:text="@string/vie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView46" />
+
+                    <TextView
+                        android:text="@string/h1viernes"
+                        android:layout_width="100dp"
+                        android:id="@+id/textView45"
+                        android:textSize="12dp"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:text=""
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ViF"
+                        android:layout_gravity="center"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:text="@string/sab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView49" />
+
+                    <TextView
+                        android:text="@string/h1sabado"
+                        android:layout_width="100dp"
+                        android:id="@+id/textView48"
+                        android:textSize="12dp"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/SaF"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:text="@string/cadadia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView498" />
+
+                    <TextView
+                        android:text="@string/h1cadadia"
+                        android:layout_width="100dp"
+                        android:id="@+id/textView488"
+                        android:textSize="12dp"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cada"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </TableRow>
+            </TableLayout>
+            <Button
+                android:id="@+id/button4"
+                android:text="Guardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/primeroc"
+                android:textColor="#ffff"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+</ScrollView>

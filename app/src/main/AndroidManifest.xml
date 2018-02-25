@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.unav.vivirsano">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".imcApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/playstore_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".recorrido1" />
+        <activity android:name=".recorrido2" />
+        <activity android:name=".MainActivityH1" />
+        <activity android:name=".MainActivityH2" />
+        <activity android:name=".MainActivityH3" />
+        <activity android:name=".MainActivityH4" />
+        <activity android:name=".MainActivityH5" />
+        <activity android:name=".MainActivityH6" />
+        <activity android:name=".MainActivityH7" />
+        <activity android:name=".MainActivityH8" />
+        <activity android:name=".datosSesion" />
+        <activity android:name=".imcInferior" />
+        <activity android:name=".imcNormal" />
+        <activity android:name=".imcObesidad" />
+        <activity android:name=".imcSuperior" />
+        <activity
+            android:name=".home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".registro"></activity>
+
+        <service
+            android:name=".NotificationService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".InstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/playstore_icon" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+    </application>
+
+</manifest>
